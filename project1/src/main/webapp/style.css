@@ -1,0 +1,132 @@
+.logo {
+	float: left;
+	clear:both;
+}
+
+   
+
+#login_list {
+   list-style:none;
+   display: inline;
+   float: right;
+}
+   
+   
+#login_list > li  {
+   	display: inline;
+   	margin-left: 10px;
+ 
+ }
+
+
+#product_list {
+   list-style:none;
+   display: inline;
+   vertical-align: top;
+   line-height: 60px;
+   
+}
+
+#product_list > li  {
+   margin-left: 30px;
+   display: inline;
+}
+
+#search {
+	display: inline;
+	margin-left: 130px;
+	vertical-align: middle;
+    line-height: 30px;
+}
+
+#home_list {
+	list-style:none;
+	 display: inline;
+}
+
+#home_list > li  {
+   	display: inline;
+   	margin-left: 10px;
+   
+}
+
+.top_container {
+	border: 2px solid green;
+	width: 100%;
+	position: fixed;
+    top: 5px;
+    background-color: white;
+}
+
+.top_location {
+	display: flex;
+	
+}
+
+.top_item {
+	width: 100%;
+	height: 55px;
+	border: 1px solid black;
+}
+
+.top_item_bar {
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+}
+
+
+.top_location1 {
+	width: 22%;
+	height: 150px;
+	border: 1px solid red;
+}
+
+.top_location2 {
+	width: 56%;
+	height: 50px;
+	border: 1px solid yellow;
+}
+
+/* 최상단바 고정용  */
+.header {
+	position:fixed;
+	border: 1px solid red;
+	width:1700px;
+	height: 100px;
+	clear: both;
+}
+
+/* 맨위 상단 빨간줄 */
+.top_bar {
+	background-color: red;
+	height: 6px;
+	border: 0px;
+	position:fixed;
+	width: 100%;
+	text-align: top;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+.bottom_bar {
+	background-color: red;
+	border: 0px;
+	height: 2px;
+}
+
+.download {
+	color: red;
+}
+
+
+.middle {
+	height: 12200px;
+	width: 100%;
+	margin-top: 160px;
+}
+
+
+
+
+
