@@ -1,12 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%> 
+    
 <!DOCTYPE html>
 <html>
 <head>
+<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 <meta charset="UTF-8">
 <title>1~2주차 과제</title>
 </head>
 <link rel="stylesheet" href="style.css?after">
+
+<script>
+	$(document).ready(function(){
+
+	});
+	
+</script>
+
 <body>
 
 <div class="top_container">
@@ -77,5 +87,7 @@
 
 </body>
 
+
 <div class="middle" style="background-color: #ffffe6; "><!-- 상단 고정바 체크용--> </div>
 </html>
+
